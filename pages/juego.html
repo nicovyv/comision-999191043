@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rompecabezas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../assets/logo.png" type="png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="../index.html"><svg>
+                <rect x="20" y="13" width="60" height="35" fill="#F0E9D2" rx="5"></rect>
+                <rect x="25" y="18" width="50" height="25" fill="#495579" rx="5"></rect>
+                <polygon points="30 53, 70 53, 95 70, 5 70" fill="#F0E9D2"></polygon>
+                <polygon points="32 55, 68 55, 83 66, 17 66" fill="#495579"></polygon>
+            </svg></a>
+            <ul>
+                <li><a href="../pages/historia.html" class="botonNav">HISTORIA</a></li>
+                <li><a href="../pages/juego.html" class="botonNav">JUGUEMOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="sectionUno">
+            <h1 class="h1Index">JUGUEMOS UN POCO</h1>
+        </section>
+
+        <section class="sectJuego1">
+            <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+            <div class="boxCont">
+                <div class="box" id="box1">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div class="box" id="box2">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div class="box" id="box3">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+            </div>
+            <div id="boxImg" class="boxImg">
+                <img src="../assets/rompe2.png" alt="imagen rompecabezas" class="imgJuego" id="img1" draggable="true">
+                <img src="../assets/rompe1.png" alt="imagen rompecabezas" class="imgJuego" id="img2" draggable="true">
+                <img src="../assets/Rompe3.png" alt="imagen rompecabezas" class="imgJuego" id="img3" draggable="true">
+            </div>
+            <div class="contBtn"><button id="btnRef" class="btnRef">Reiniciar</button></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="fh3">
+            <img src="../assets/logo.png" alt="logo">
+            <h3>PROGRAMACIÓN <br>E <br>HISTORIA</h3>
+        </div>
+        <div class="fp">
+            <p>Sitio con fines educativos - Creado por M.Victoria Lopez</p>
+        </div>
+    </footer>
+
+    <script src="../javascript/juego.js"></script>
+</body>
+
+</html>
