@@ -16,11 +16,11 @@ img1.addEventListener("dragstart", (event) => {
 });
 
 img2.addEventListener("dragstart", (event) => {
-    event.dataTransfer.setData("Text", "../assets/rompe1.png")
+    event.dataTransfer.setData("Text", "../assets/Rompe1.png")
 });
 
 img3.addEventListener("dragstart", (event) => {
-    event.dataTransfer.setData("Text", "../assets/rompe3.png")
+    event.dataTransfer.setData("Text", "../assets/Rompe3.png")
 });
 
 img1.addEventListener("dragend",(event)=>{
